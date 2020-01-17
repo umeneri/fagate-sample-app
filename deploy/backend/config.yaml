@@ -1,0 +1,5 @@
+region: ap-northeast-1
+cluster: staging-fargate-cluster
+service: staging-backend-service
+task_definition: task-definition.json
+timeout: 10m0s
